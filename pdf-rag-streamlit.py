@@ -19,7 +19,7 @@ import ollama
 logging.basicConfig(level=logging.INFO)
 
 # Constants
-DOC_PATH = "./data/BOI.pdf"
+DOC_PATH = "./data/BOI.pdf"  #you can add your own pdf's for your reference
 MODEL_NAME = "llama3.2"
 EMBEDDING_MODEL = "nomic-embed-text"
 VECTOR_STORE_NAME = "simple-rag"
